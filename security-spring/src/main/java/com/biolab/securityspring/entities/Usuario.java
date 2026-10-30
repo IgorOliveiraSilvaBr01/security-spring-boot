@@ -24,6 +24,8 @@ public class Usuario {
     private String email;
     @Size(min = 6)
     private String senha;
+    @Size(min = 11, max = 11)
+    private String cpf;
     @Enumerated(EnumType.STRING)
     private Role role;
 }
